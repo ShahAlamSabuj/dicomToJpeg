@@ -18,7 +18,7 @@ public class Pro {
 	static BufferedImage myJpegImage = null;
 
 	public static void main(String[] args) {
-		File file = new File("IM-0001-0001.dcm");
+		File file = new File("IM-0001-0001.dcm"); //DICOM image 
 		Iterator<ImageReader> iterator = ImageIO
 				.getImageReadersByFormatName("DICOM");
 		while (iterator.hasNext()) {
